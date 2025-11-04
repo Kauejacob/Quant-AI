@@ -1,4 +1,3 @@
-# backtest/visualization.py
 """
 Visualizações para resultados do backtest.
 """
@@ -269,4 +268,5 @@ if __name__ == "__main__":
     create_performance_report(results, save_dir="test_plots")
     
     print("\n✅ Teste concluído!")
+
     print(f"📁 Gráficos salvos em: test_plots/")
