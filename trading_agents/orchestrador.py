@@ -1,4 +1,3 @@
-# orchestrator.py
 """
 Orquestrador do pipeline multi-agente.
 Gerencia o fluxo: Analyst → Bear + Bull → Senior → Decisão Final
@@ -217,4 +216,5 @@ if __name__ == "__main__":
         print(f"   Confiança: {state.senior_decision.confidence:.0%}")
     
     print(f"\n⏱️ Tempo total: {state.execution_time_seconds:.2f}s")
+
     print("\n" + "="*70)
