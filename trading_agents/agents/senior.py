@@ -1,4 +1,3 @@
-# agents/senior.py
 """
 Agente Senior - Toma decisão final sintetizando todas as perspectivas.
 """
@@ -383,4 +382,5 @@ Seja RIGOROSO com o position_size e REALISTA com as probabilidades.
 
 if __name__ == "__main__":
     print("⚠️ Este agente precisa de FundamentalReport + BearPerspective + BullPerspective.")
+
     print("   Execute via orchestrator.py completo.")
