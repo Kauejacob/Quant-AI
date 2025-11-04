@@ -1,4 +1,3 @@
-# data/yfinance_utils.py
 """
 Utilitários para coleta de dados via yfinance.
 """
@@ -192,4 +191,5 @@ if __name__ == "__main__":
     
     print(f"\n📝 Evidências:")
     for ev in snapshot['evidence']:
+
         print(f"   • {ev}")
