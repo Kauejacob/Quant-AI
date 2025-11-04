@@ -1,4 +1,3 @@
-# agents/bear.py
 """
 Agente Pessimista (Bear) - Analisa riscos e cenários negativos.
 """
@@ -303,4 +302,5 @@ if __name__ == "__main__":
         print(f"   • {concern}")
     
     print(f"\n📖 Pior Cenário:")
+
     print(f"   {bear_result.worst_case_scenario}")
