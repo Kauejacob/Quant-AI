@@ -1,4 +1,3 @@
-# tests/test_utils.py
 """
 Testes unitários para yfinance_utils.
 """
@@ -52,3 +51,4 @@ if __name__ == "__main__":
     test_validate_snapshot()
     print("\n🎉 Todos os testes passaram!")
     
+
